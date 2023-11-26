@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/ng-openapi-gen/ng-openapi-gen-schema.json",
+  "input": "swagger.json",
+  "output": "src/api-volatility/",
+  "ignoreUnusedModels": false,
+  "servicePrefix": "Http",
+  "serviceSuffix": "Service",
+  "baseService": "VolatilityApiBaseService",
+  "modelSuffix": "Http",
+  "module": "VolatilityApiModule",
+  "requestBuilder": "VolatilityApiRequestBuilder",
+  "configuration": "VolatilityApiConfiguration"
+}
